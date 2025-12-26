@@ -28,7 +28,7 @@ type PageResponse<T> = {
     totalPages: number;
 };
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "http://localhost:8088";
 
 export default function PostsListPage() {
     const gridApiRef = useRef<GridApi | null>(null);
